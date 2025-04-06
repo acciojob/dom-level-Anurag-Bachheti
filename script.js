@@ -7,4 +7,4 @@ while(current){
 	level++;
 	current = current.parentElement;
 }
-alert(`The level of the element is:" ${level}`)
+alert("The level of the element is:" + level)
