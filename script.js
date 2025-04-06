@@ -1,10 +1,12 @@
-document.getElementById("level");
+window.addEventListener("DOMContentLoaded", function () {
+	document.getElementById("level");
 
-let level = 0;
-let current = target;
+	let level = 0;
+	let current = target;
 
-while(current){
-	level++;
-	current = current.parentElement;
-}
-alert("The level of the element is:" + level)
+	while(current){
+		level++;
+		current = current.parentElement;
+	}
+	alert("The level of the element is:" + level)
+});
